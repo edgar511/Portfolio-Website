@@ -16,6 +16,14 @@ body{
     align-items: center;
 }
 
+#MINI-LOGOS-BACKGROUND {
+    display: flex;
+    flex-direction: center;
+    width: 100%;
+    height: 100%;
+}
+
+
 
 
 /* header starts here */
@@ -27,7 +35,6 @@ body{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-
 }
 
 
@@ -107,17 +114,17 @@ body{
     height: 234px;
     margin-left: 30px ;
     margin-right: 360px;
-    margin-bottom: 155px;
+    margin-bottom: 200px;
     border: 1px solid rgb(255, 0, 225);
 }
 
 
 #About-box-1 {
+    background-color: #659ED5;
     width: 135px;
     height: 50px;
     margin-left: 115px;
     margin-right: 770px;
-    background-color: #659ED5;
     display: flex;
     flex-direction: center;
     align-items: center;
@@ -129,11 +136,12 @@ body{
     color: white;
     text-shadow: #254777 3px 3px 3px;
     align-self: first baseline;
+    font-size: 25px;
 }
 
 
 #About-box-2 {
-    background-color:#659ED5 ;
+    background-color:#659ED5;
     width: 630px;
     height: 69px;
     margin-right: 360px;
@@ -144,6 +152,7 @@ body{
     justify-content: center;
     color: white;
     text-shadow: #254777 3px 3px 3px;
+    font-size: 25px;
 }
 
 
@@ -164,11 +173,12 @@ body{
     justify-content: center;
     color: white;
     text-shadow: #254777 3px 3px 3px;
+    font-size: 25px;
 }
 
 
 #OPTION-contact {
-    background-color:#659ED5 ;  
+    background-color:#659ED5;  
     height: 60px;
     width: 250px;
     margin-top: 15px;
@@ -177,6 +187,10 @@ body{
     border-radius: 10px;
     display: flex;
     flex-direction: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 33px;
 }
 
 /* ABOVE THE SCROLL ENDS HERE */
