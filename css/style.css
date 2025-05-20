@@ -16,7 +16,7 @@ body{
     width: 1024px;
     height: 100%;
     margin: 0px auto;
-    border: 1px solid #00ff2f;
+  
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -101,7 +101,7 @@ body{
 #above-the-scroll {
     width: 100%;
     height: 640px;
-    border: 1px solid #ff0000;
+    /* border: 1px solid #ff0000; */
     margin: 0px;
     padding: 0px;
     display: flex;
@@ -116,7 +116,7 @@ body{
     margin-left: 30px ;
     margin-right: 360px;
     margin-bottom: 200px;
-    border: 1px solid rgb(255, 0, 225);
+    /* border: 1px solid rgb(255, 0, 225); */
 }
 
 
@@ -237,22 +237,3 @@ body{
 
 
 
-
-
-
-.box {
-    position: relative;
-    width: 300px;
-    height: 100px;
-    background-color: #f0f0f0;
-  }
-  
-  .border-line {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 50%; /* stops at 50% of container width */
-    height: 2px;
-    background-color: black;
-  }
