@@ -46,6 +46,7 @@ body{
     justify-content: center;
     color: white;
     text-shadow: #254777 3px 3px 3px;
+    font-family:verdana;
 }
 
 
@@ -60,6 +61,7 @@ body{
     justify-content: center;
     color: white;
     text-shadow: #254777 3px 3px 3px;
+    font-family:verdana;
 }
 
 
@@ -74,6 +76,7 @@ body{
     justify-content: center;
     color: white;
     text-shadow: #254777 3px 3px 3px;
+    font-family:verdana;
 }
 
 
@@ -88,6 +91,7 @@ body{
     justify-content: center;
     color: white;
     text-shadow: #254777 3px 3px 3px;
+    font-family:verdana;
 }
 
 /* HEADER ENDS HERE */
@@ -133,7 +137,7 @@ body{
     color: white;
     text-shadow: #254777 3px 3px 3px;
     align-self: first baseline;
-    font-size: 25px;
+    font-size: 35px;
 }
 
 
@@ -149,7 +153,7 @@ body{
     justify-content: center;
     color: white;
     text-shadow: #254777 3px 3px 3px;
-    font-size: 25px;
+    font-size: 55px;
 }
 
 
@@ -171,24 +175,84 @@ body{
     color: white;
     text-shadow: #254777 3px 3px 3px;
     font-size: 25px;
+    border-bottom: 1px solid #254777;
+    border-left: 1px solid #254777;
+    border-right: 1px solid #254777;
 }
 
 
 #OPTION-contact {
     background-color:#659ED5;  
-    height: 60px;
-    width: 250px;
+    height: 30px;
+    width: 150px;
     margin-top: 15px;
     margin-right: 660px;
     margin-left: 110px;  
-    border-radius: 10px;
+    border-radius: 5px;
     display: flex;
     flex-direction: center;
     align-items: center;
     justify-content: center;
     color: white;
-    font-size: 33px;
+    font-size: 15px;
+    text-shadow: #254777 3px 3px 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* ABOVE THE SCROLL ENDS HERE */
 
+
+#aboutme-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: center;
+}
+
+
+#ABOUTME {
+    margin-top: 90px;
+    width: 735px;
+    height: 454px;
+    background-color: #659ED5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: center;
+    border-radius: 20px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid  #254777 ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.box {
+    position: relative;
+    width: 300px;
+    height: 100px;
+    background-color: #f0f0f0;
+  }
+  
+  .border-line {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50%; /* stops at 50% of container width */
+    height: 2px;
+    background-color: black;
+  }
